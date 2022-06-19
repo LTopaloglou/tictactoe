@@ -32,7 +32,7 @@ public class treeBoard {
 	treeBoard[] children;
 	boolean Max;
 	int score;
-	
+
 	public treeBoard(char board[][]) {
 		//constructor for the initial treeBoard. Will be used by the aiTurn method
 		//this will be the board after the human player's turn. Since the next turn is the AI's and therefore a max turn, this turn is a min turn

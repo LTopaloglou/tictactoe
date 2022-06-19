@@ -13,7 +13,6 @@ public class LeoTicTacToe {
 	static boolean hardmode;
 	static Random r = new Random();
 	
-	
 	public static void main(String args[]) {
 		//this main method will call on other functions to set up and run the game.
 		
@@ -222,6 +221,7 @@ public class LeoTicTacToe {
 		
 		if (hardmode) {
 			//hard mode will use a min/max algorithm, which assumes the opponent is playing optimally
+			
 			treeBoard init = new treeBoard(board);
 			init.copyBoard(board, init.findBest());
 		} else {
